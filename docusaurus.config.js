@@ -85,8 +85,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '随心记',
+                to: '/docs/kim-home',
               },
             ],
           },
