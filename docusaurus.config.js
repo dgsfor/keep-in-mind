@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://erdiao.itmonkey.icu',
+  url: 'https://www.dgsfor.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -76,19 +76,19 @@ const config = {
             position: 'left',
             label: '随心记',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/dgsfor/keep-in-mind',
-            label: 'Github',
-            position: 'right',
-          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://github.com/dgsfor/keep-in-mind',
+          //   label: 'Github',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Home',
             items: [
               {
                 label: '随心记',
@@ -100,19 +100,19 @@ const config = {
             title: '社区',
             items: [
               {
-                label: 'Github',
-                href: 'https://github.com/gsgs-libin',
+                label: '猿的野生香蕉',
+                href: 'https://github.com/dgsfor',
               },
               {
-                label: '猿的野生香蕉',
-                href: 'https://blog.itmonkey.icu/',
+                label: '美丽小黄的食谱',
+                href: 'https://www.huangchuang.com.cn/',
               },
             ],
           },
         ],
         copyright: `<span>Copyright © ${new Date().getFullYear()} HuangChuang, Inc. Built with Docusaurus.</span>
                     <br />
-                    <a href="https://beian.miit.gov.cn">备案号: 粤ICP备12345678号</a>`,
+                    <a href="https://beian.miit.gov.cn">豫ICP备2023016700号-2</a>`,
       },
       prism: {
         theme: lightCodeTheme,
