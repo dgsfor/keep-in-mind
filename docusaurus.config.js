@@ -76,6 +76,12 @@ const config = {
             position: 'left',
             label: '随心记',
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'cookbookSidebar',
+            label: 'CookBook',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   href: 'https://github.com/dgsfor/keep-in-mind',
