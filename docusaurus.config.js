@@ -23,6 +23,7 @@ const config = {
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  onBrokenAnchors: "ignore",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -72,36 +73,28 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'hairSidebar',
             position: 'left',
             label: '随心记',
           },
           {
             type: 'docSidebar',
+            sidebarId: 'xiaolikuaichaoSidebar',
             position: 'left',
-            sidebarId: 'cookbookSidebar',
-            label: 'CookBook',
+            label: '小李快炒',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'yanghuarijiSidebar',
+            position: 'left',
+            label: '养花日记',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: 'https://github.com/dgsfor/keep-in-mind',
-          //   label: 'Github',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Home',
-            items: [
-              {
-                label: '随心记',
-                to: '/docs/kim-home',
-              },
-            ],
-          },
           {
             title: '社区',
             items: [
@@ -119,7 +112,7 @@ const config = {
         copyright: `<span>Copyright © ${new Date().getFullYear()} HuangChuang, Inc. Built with Docusaurus.</span>
                     <div style="width:300px;margin:0 auto; padding:5px 0;">
 		 		              <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=35020302035855" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-                        <img src="./img/gongan_beian.png" style="float:left;"/>
+                        <img src="/img/gongan_beian.png" style="float:left;"/>
                         <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">闽公网安备 35020302035855号</p>
                       </a>
 		 	              </div>
